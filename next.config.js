@@ -7,9 +7,7 @@ const nextConfig = {
     ignoreDuringBuilds: true,
   },
   images: {
-    remotePatterns: [
-      { protocol: 'https', hostname: '*.supabase.co' }
-    ]
+    domains: ['vkbidbwafrrlspjibyus.supabase.co']
   }
 }
 module.exports = nextConfig
